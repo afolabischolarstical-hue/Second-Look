@@ -1,0 +1,25 @@
+Copyright (c) 2026 Second Look. All rights reserved.
+
+This software and its source code, including all files in this repository
+(the "Software"), are the property of Second Look.
+
+No license is granted. Without prior written permission from Second Look,
+you may not copy, modify, merge, publish, distribute, sublicense, sell, or
+otherwise use the Software or any part of it, in whole or in part, for any
+purpose. Viewing the Software in this repository does not give you any right
+to use it.
+
+To ask for permission, contact the owner of this repository.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Third-party parts
+
+This repository uses open-source libraries (listed in package.json, such as
+Express and the Anthropic SDK) and web fonts from Google Fonts. Those parts
+remain under their own licenses and are not covered by this notice.
