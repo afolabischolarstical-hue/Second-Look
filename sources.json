@@ -1,0 +1,36 @@
+{
+  "_help": "The trusted sources Second Look may point people to. To add one, copy an entry and change it. 'domains' is the source's own website (used to check links). 'search' is an optional search page address where {q} is replaced by the search words; without it we use a Google search limited to the first domain. 'imageOnly' marks reverse image search tools. Confirm each source is still active before launch.",
+  "sources": [
+    { "id": "dubawa",        "name": "Dubawa",                        "region": "Nigeria and West Africa",              "domains": ["dubawa.org"] },
+    { "id": "africacheck",   "name": "Africa Check",                  "region": "Nigeria, South Africa, Kenya, Senegal", "domains": ["africacheck.org"] },
+    { "id": "factcheckhub",  "name": "FactCheckHub",                  "region": "Nigeria",                              "domains": ["factcheckhub.com"] },
+    { "id": "thecable",      "name": "TheCable Fact Check",           "region": "Nigeria",                              "domains": ["thecable.ng"] },
+    { "id": "ncdc",          "name": "NCDC (Nigeria Centre for Disease Control)", "region": "Nigeria, health",         "domains": ["ncdc.gov.ng"] },
+
+    { "id": "reuters",       "name": "Reuters Fact Check",            "domains": ["reuters.com"],     "search": "https://www.reuters.com/site-search/?query={q}" },
+    { "id": "apnews",        "name": "AP News",                       "domains": ["apnews.com"],      "search": "https://apnews.com/search?q={q}" },
+    { "id": "afp",           "name": "AFP Fact Check",                "region": "Global, strong in Africa", "domains": ["factcheck.afp.com"] },
+    { "id": "snopes",        "name": "Snopes",                        "domains": ["snopes.com"],      "search": "https://www.snopes.com/search/?q={q}" },
+    { "id": "fullfact",      "name": "Full Fact",                     "domains": ["fullfact.org"],    "search": "https://fullfact.org/search/?q={q}" },
+    { "id": "factcheckorg",  "name": "FactCheck.org",                 "domains": ["factcheck.org"],   "search": "https://www.factcheck.org/?s={q}" },
+    { "id": "politifact",    "name": "PolitiFact",                    "domains": ["politifact.com"],  "search": "https://www.politifact.com/search/?q={q}" },
+    { "id": "bbc",           "name": "BBC News",                      "domains": ["bbc.co.uk", "bbc.com"], "search": "https://www.bbc.co.uk/search?q={q}" },
+    { "id": "who",           "name": "World Health Organization",     "domains": ["who.int"] },
+    { "id": "cdc",           "name": "CDC",                           "domains": ["cdc.gov"] },
+    { "id": "nasa",          "name": "NASA",                          "domains": ["nasa.gov"] },
+    { "id": "google_factcheck", "name": "Google Fact Check Explorer", "domains": ["toolbox.google.com"], "search": "https://toolbox.google.com/factcheck/explorer/search/{q};hl=en" },
+    { "id": "google_news",   "name": "Google News",                   "domains": ["news.google.com"], "search": "https://news.google.com/search?q={q}" },
+
+    { "id": "pesacheck",     "name": "PesaCheck",                     "region": "East Africa",          "domains": ["pesacheck.org"] },
+    { "id": "boomlive",      "name": "BOOM",                          "region": "India",                "domains": ["boomlive.in"] },
+    { "id": "altnews",       "name": "Alt News",                      "region": "India",                "domains": ["altnews.in"] },
+    { "id": "chequeado",     "name": "Chequeado",                     "region": "Latin America",        "domains": ["chequeado.com"] },
+    { "id": "aosfatos",      "name": "Aos Fatos",                     "region": "Brazil",               "domains": ["aosfatos.org"] },
+    { "id": "maldita",       "name": "Maldita",                       "region": "Spain",                "domains": ["maldita.es"] },
+    { "id": "verafiles",     "name": "VERA Files",                    "region": "Philippines",          "domains": ["verafiles.org"] },
+    { "id": "misbar",        "name": "Misbar",                        "region": "Arab world",           "domains": ["misbar.com"] },
+
+    { "id": "tineye",        "name": "TinEye reverse image search",   "domains": ["tineye.com"],      "search": "https://tineye.com/", "imageOnly": true },
+    { "id": "google_lens",   "name": "Google Lens",                   "domains": ["lens.google.com"], "search": "https://lens.google.com/", "imageOnly": true }
+  ]
+}

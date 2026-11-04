@@ -1,0 +1,5 @@
+# Secret keys - never upload these
+.env
+
+# Libraries downloaded by npm (they can be re-downloaded any time)
+node_modules/
